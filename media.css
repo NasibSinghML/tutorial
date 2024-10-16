@@ -1,0 +1,203 @@
+@media(max-width:600px)
+{
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        position: sticky;
+    }
+    .navbar i{
+      display: inline;
+      position: absolute;
+      left: 30px;
+      font-size: larger;
+    }
+    .navbar img{
+      width: 80px;
+      height: 80px;
+    }
+    
+    .nav ul{
+      position: absolute;
+      left: 0;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      background-color: white;
+      top: 95px;
+      display: none;
+    }
+    .home{
+      background-color: rgba(0, 0, 0, 0);
+      color: black;
+    }
+    li{
+      background-color: rgba(0, 0, 0, 0.212);
+      border: 1px solid white;
+      align-items: center;
+      justify-content: center;
+    }
+    li:hover{
+      background-color: rgba(0, 0, 0);
+    }
+    li a:hover{
+      background-color:rgba(0, 0, 0, 0);
+    } 
+   
+    .section1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-top: 22px;
+    }
+    .section1wrapper{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        text-align: center;
+    
+      }
+      .section_txt p{
+        font-size: 34px;
+        font-weight: 900;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .section_txt p b{
+        color: blueviolet;
+        font-size: 40px;
+      }
+      .desc p{
+        text-align: center;
+        justify-content: center;
+        padding-top: 22px;
+        font-size: 16px;
+      }
+      .traindevelop{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .section1img{
+        width: 100%;
+        margin-top: 40px;
+      }
+      .exp p{
+        text-align: center;
+        padding: 40px;
+        margin: 0;
+        height: auto;
+        margin-top: 120px;
+      }
+      .section3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+      }
+      .img3{
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+      }
+      .img3 img{
+        width: 90%;
+        height: 90%;
+      }
+      .section32{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 40px;
+      }
+      .section4{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        width: 100%;
+        height:auto;
+      }
+      .section41{
+        text-align: center;
+        font-size: larger;
+        width: 100%;
+        height: auto;
+      }
+      .section411{
+        padding: 10px;
+        text-align: left;
+        font-size: 28px;
+        width: 100%;
+        height: 50%;
+      }
+      .section42{
+        width: 100%;
+        height:50%;
+      }
+      .section5{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .section15{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+      }
+      .section51 img{
+        margin: 0;
+        padding: 0;
+      }
+      
+      .owner{
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-left: 20px;
+        font-size: 40px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+      .section52{
+        text-align: left;
+        padding: 20px;
+      }
+      .footer{
+        width: 100%;
+        padding: 0;
+      }
+      .social{
+        display:flex;
+        font-size: small;
+        padding: 10px;
+      }
+      .icons{
+        padding: 5px;
+      }
+      
+      .section6{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .section61{
+        width: 100%;
+        text-align: center;
+        height: auto;
+      }
+      .head1{
+        text-align: center;
+      }
+      
+    }
